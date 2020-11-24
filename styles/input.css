@@ -1,0 +1,27 @@
+
+input[type="text"],
+input[type="password"],
+input[type="number"]{
+    padding: 0.5rem 0.35rem;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: 0;
+}
+
+.input-active {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.input-active::placeholder {
+    color: var(--primary-color);
+}
+
+.input-disabled {
+    border: 2px solid #565656;
+    color: #565656;
+}
+
+.input-disabled::placeholder {
+    color: #565656;
+}
