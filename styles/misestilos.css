@@ -1,0 +1,60 @@
+.montos{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.bodycartera{
+    background: linear-gradient(180deg, #C4C4C4 0%, #28ABB9 91.67%);
+    height: 100%;
+}
+
+.logomoneda{
+    margin-right:20px ;
+}
+
+input.inputmonedas{
+    background-color:gainsboro;
+}
+
+.circulos{
+    position: relative;
+    top: -400px; 
+    left: 640px;
+}
+.circulo{
+    margin-left: 16px;
+}
+#balancetotal{
+    position: relative;
+    top: -300px; 
+    left: 730px;
+    background-color: lightslategrey;
+    width: 400px;
+    height: 48px;
+}
+.textocirculo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -600px; 
+    left: 225px;
+}
+.textocirc{
+    margin-left: 115px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+label{
+    color: #2D6187;
+    }
+.fuenteazul{
+    color: #2D6187;
+}
+
