@@ -1,0 +1,74 @@
+body {
+   background: url("assets/imagen_profile.jpeg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.caja {
+font-weight: 40px;
+line-height: 0px;
+width: 540px;
+height: 100px;
+color: #071c96;
+border: black 1px solid;
+opacity: 70%;
+background: #c8cedd;
+margin: 0 0 35px;
+padding: 20px;
+border-radius: 20px;
+}
+
+.circulo {
+   width: 80px;
+   height: 80px;
+   background: #28ABB9;
+   border-radius: 80%;
+}
+
+.caja2 {
+float: left;
+font-weight: 40px;
+line-height: 0px;
+text-align: center;
+width: 250px;
+height: 100px;
+color: black;
+border: black 1px solid;
+opacity: 70%;
+background: #c8cedd;
+margin: 0 0 35px;
+padding: 20px;
+border-radius: 20px;
+}
+.caja3 {
+float: left;
+font-weight: 40px;
+line-height: 0px;
+text-align: center;
+width: 250px;
+height: 100px;
+color: black;
+border: black 1px solid;
+opacity: 70%;
+background: #c8cedd;
+margin: 0 0 35px;
+padding: 20px;
+border-radius: 20px;
+}
+.caja1 {
+align-items: left;
+font-weight: 40px;
+line-height: 0px;
+text-align: center;
+width: 250px;
+height: 100px;
+color: black;
+border: black 1px solid;
+opacity: 70%;
+background: #c8cedd;
+margin: 0 0 35px;
+padding: 20px;
+border-radius: 20px; 
+}

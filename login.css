@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background-image: url("assets/img/imagen_login.jpeg");
+  font-family: 'Roboto', sans-serif;
+}
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 10px;
+  display: block;
+  width: 350px;
+  border-radius: 3px;
+  border: 1px solid #2D6187;
+  margin: 20px auto;
+}
+input[type="submit"] {
+  font-size: 16px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  background:#2D6187;
+  width: 200px;
+  margin-top: 0;
+  border: 0;
+  margin: 20px auto;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
