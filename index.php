@@ -8,15 +8,24 @@
     <link rel="stylesheet" href="./styles/buttons.css">
     <link rel="stylesheet" href="./styles/input.css">
     <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <?php require_once "./components/header.php" ?>
-    <p class="title">Título</p>
-    <p class="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo consequatur iste rem illo at id doloremque officiis quos possimus molestias voluptatum voluptas quasi itaque, dicta perferendis impedit nulla? Doloribus?
-    </p>
-    <button class="button primary">Enviar!</button><br>
-    <input type="text" class="input-active" placeholder="Nombre(s)">
-    <input type="text" class="input-disabled" placeholder="Nombre(s)">
+
+    <section class="home__main">
+        <section class="home__info">
+            <div class="home__title">
+                <h1>Aprende a</h1>
+                <h1>usar una wallet</h1>
+                <p>La manera más sencilla de aprender criptomonedas sin arriesgar tu dinero</p>
+            </div>
+            <div class="home__buttons">
+                <a href="tutorial.php" class="home__btn">¿Cómo empezar?</a>
+                <a href="tutorial.php" class="home__btn">¿Es seguro?</a>
+                <a href="tutorial.php" class="home__btn">¿Cómo empezar?</a>
+            </div>
+        </section>
+        <section class="blank"></section>
+    </section>
 </body>
 </html>

@@ -1,6 +1,10 @@
 <nav class="header">
     <figure class="logo">
-        <img src="/assets/CryptoBS_isologo.svg" alt="Logotipo de CryptoBS">
+        <div>
+            <a href="index.php">
+                <img src="/assets/CryptoBS_isologo.svg" alt="Logotipo de CryptoBS">
+            </a>
+        </div>
         <div class="blank"></div>
     </figure>
     <ul class="links">
